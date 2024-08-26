@@ -1,0 +1,573 @@
+# 'La Academia UBUNTU'
+
+
+limpiar()
+
+
+beta = tipo("Ubuntu" && 1)
+x = tipo ("Ubuntu" && 1)
+//Pantalla de carga piloto
+escribir ("
+
+    
+                                                        ()============================================()
+                                                        ||                                            ||
+                                                        ||          'La Academia UBUNTU'              ||
+                                                        ||                                            ||
+                                                        ||           versión 1.0.0-alfa1              ||
+                                                        ||                                            ||
+                                                        ||    Creado por Mario Carrillo Gonzàlez      ||
+                                                        ||                                            ||
+                                                        ()============================================()
+
+
+
+
+    (##)===============================================================================================================================================(##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)----------------------------------------------------------------- ENGLISH ---------------------------------------------------------------------(##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)           MIT License                                                                                                                         (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)           Copyright (c) 2024 - Mario Carrillo González                                                                                        (##)
+    (##)                                                                                                                                               (##)
+    (##)           Permission is hereby granted, free of charge, to any person obtaining a copy                                                        (##)                                                                    
+    (##)           of this software and associated documentation files (the 'Software'), to deal                                                       (##)                                                                     
+    (##)           in the Software without restriction, including without limitation the rights                                                        (##)                                                                                  
+    (##)           to use, copy, modify, merge, publish, distribute, sublicense, and/or sell                                                           (##)                                                                                                                                                       
+    (##)           copies of the Software, and to permit persons to whom the Software is                                                               (##)                                                                                                                                                   
+    (##)           furnished to do so, subject to the following conditions:                                                                            (##)                                                                                                                                      
+    (##)                                                                                                                                               (##)                                                                  
+    (##)           The above copyright notice and this permission notice shall be included in all                                                      (##)                                                                                                                                                            
+    (##)           copies or substantial portions of the Software.                                                                                     (##)                                                                                                                             
+    (##)                                                                                                                                               (##)                                                                  
+    (##)           THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR                                                          (##)                                               
+    (##)           IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,                                                            (##)                                             
+    (##)           FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE                                                         (##)                                                                                                                                                                     
+    (##)           AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER                                                              (##)                                                                                                                                                                
+    (##)           LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,                                                       (##)                                                                                                                                                                       
+    (##)           OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE                                                       (##)                                                                                                                                                                       
+    (##)           SOFTWARE.                                                                                                                           (##)                                                                                                   
+    (##)                                                                                                                                               (##)                                                                              
+    (##)                                                                                                                                               (##)                                                                              
+    (##)                                                                                                                                               (##)                                                                              
+    (##)                                                                                                                                               (##)                                                                              
+    (##)                                                                                                                                               (##)                                                                              
+    (##)                                                                                                                                               (##)                                                                              
+    (##)----------------------------------------------------------------- ESPAÑOL ---------------------------------------------------------------------(##)                                                    
+    (##)                                                                                                                                               (##)
+    (##)       Licencia MIT                                                                                                                            (##)                        
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)       Copyright (c) 2024 - Mario Carrillo González                                                                                            (##)                                                       
+    (##)                                                                                                                                               (##)
+    (##)       Por la presente, se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia                                       (##)                                                                                       
+    (##)       de este software y archivos de documentacion asociados (el 'Software'), para utilizar                                                   (##)                                                                                                
+    (##)       el Software sin restriccion, incluyendo sin limitacion los derechos                                                                     (##)                                                                           
+    (##)       para usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender                                                   (##)                                                                                              
+    (##)       copias del Software, y para permitir a las personas a quienes se les proporcione el Software                                            (##)                                                                                 
+    (##)       que lo hagan, sujeto a las siguientes condiciones:                                                                                      (##)                                                                         
+    (##)                                                                                                                                               (##)
+    (##)       El aviso de copyright anterior y este aviso de permiso se incluirán en                                                                  (##)                                                                                                 
+    (##)       todas las copias o partes sustanciales del Software.                                                                                    (##)                                                                               
+    (##)                                                                                                                                               (##)                    
+    (##)       EL SOFTWARE SE PROPORCIONA 'TAL CUAL', SIN GARANTIA DE NINGUN TIPO, EXPRESA O                                                           (##)                                                                                                        
+    (##)       IMPLICITAS, INCLUYENDO PERO NO LIMITADO A LAS GARANTIAS DE COMERCIALIZACION,                                                            (##)                                                                                                       
+    (##)       IDONEIDAD PARA UN PROPOSITO PARTICULAR Y NO INFRACCION. EN NINGUN CASO LOS                                                              (##)                                                                                                    
+    (##)       AUTORES O TITULARES DEL COPYRIGHT SERAN RESPONSABLES POR NINGUN RECLAMO, DAÑOS U OTRA                                                   (##)                                                                                                               
+    (##)       RESPONSABILIDAD, YA SEA EN UNA ACCION DE CONTRATO, AGRAVIO O CUALQUIER OTRA FORMA, DERIVADOS DE,                                        (##)                                                                                                                           
+    (##)       QUE SURJAN DE, O EN RELACION CON EL SOFTWARE O EL USO U OTROS TIPOS DE ACCIONES EN                                                      (##)                                                                                      
+    (##)       EL SOFTWARE.                                                                                                                            (##)                                       
+    (##)                                                                                                                                               (##)                    
+    (##)                                                                                                                                               (##)                    
+    (##)                                                                                                                                               (##)                    
+    (##)                                                                                                                                               (##)                    
+    (##)                                                                                                                                               (##)                    
+    (##)                                                                                                                                               (##)                    
+    (##)                                                                                                                                               (##)                    
+    (##)                                                                                                                                               (##)                     
+    (##)                                                                                                                                               (##)                                                                                                                                                                   
+    (##)===============================================================================================================================================(##)                                                                                                                                                                   
+
+    Por favor, Introdúzca su nombre:
+
+")  
+
+Nombre = leer()
+abc = "Nombre Usuario"
+
+mientras tipo(Nombre) != tipo (abc)
+
+    escribir ("Por favor, introduzca su nombre:")
+    Nombre = leer()
+    limpiar()
+fin
+
+limpiar()
+
+// menú de selección 1 piloto
+
+
+
+
+escribir ("Hola "..Nombre)
+escribir ("
+
+    bienvenido a 'La Academia UBUNTU'
+
+
+    ()============================================================================================================================()
+    ||                                                                                                                            ||              
+    ||     * Introduce la palabra 'Ubuntu', y despúes presiona la tecla 'Enter', para dirigirte a la pantalla de bienvenida.      ||                                                                                                       
+    ||                                                                                                                            ||              
+    ||     * Para cerrar el programa, introduce el número 0 y presiona la tecla 'Enter', o simplemente presiona la tecla 'Enter'. ||                                                                                                                                    
+    ||                                                                                                                            ||               
+    ()============================================================================================================================()
+
+
+") 
+
+x = leer()
+limpiar()
+
+mientras (x != "Ubuntu") && (x != "ubuntu") && (x != 0)
+
+    escribir ("
+    
+        Por favor "..Nombre..", introduzca 'Ubuntu' y presione 'Enter' para dirigirte a la pantalla de bienvenida; 
+        o introduzca 0 y presione 'Enter' para cerrar el programa, o simprlente presione 'Enter' para cerrar el programa :
+        
+    ")
+    x = leer()
+    limpiar()
+fin
+
+
+// Cuerpo del programa
+mientras x != 0
+
+    // Pantalla de bienvenida e introducción
+    escribir ("
+
+
+
+                                                ()==================================================================()
+                                                ||                                                                  ||
+                                                ||                                                                  ||                                                                                
+                                                ||       Hola "..Nombre..", bienvenido a 'La Academia UBUNTU'       ||                                                                                                                     
+                                                ||                                                                  ||                                                                                
+                                                ||                                                                  ||                                                                                
+                                                ()==================================================================()
+
+
+        ()==============================================================================================================================================()
+        ||                                                                                                                                              || 
+        ||   'La Academia Ubuntu' es un proyecto de software libre que pretende ayudar a las personas a aprender y/o mejorar sus habilidades en         || 
+        ||    cualquier ámbito del saber, ya sea en ciencias como Matematicas, Química, Física, Biologia, etc., o en estudios como Filosofía, Arte,     || 
+        ||    Música, Linguística, Idiomas, etc.; todo bajo la ideología-filosofía 'Ubuntu', así como de la Educación Abierta, Educación Libertária, y  ||
+        ||    cualquier ideología-filosofía que fomente la educación gratuita y de la mejor calidad posible, para fomentar un futuro mejor; todo en     ||                                                                              
+        ||    base a la colaboración y el apoyo de la comunidad, y de la inteligencia colectiva de voluntarios que gusten sumarse a este proyecto.      ||                                  
+        ||                                                                                                                                              ||
+        ||                                                                                                                                              ||                                  
+        ||    Significado de la palabra 'Ubuntu'                                                                                                        ||
+        ||                                                                                                                                              ||
+        ||    Puede que la palabra 'Ubuntu' sea más conocida por ser el nombre de uno de los distro más populares del sistema GNU/Linux; pero esa       ||                                                                                                                                          ||
+        ||    palabra proviene de las lenguas zulú y xhosa, lenguas que son unos idiomas de Sudáfrica.                                                               ||
+        ||                                                                                                                                              ||                                                 
+        ||    Hay varias traducciones posibles del término Ubuntu al español, las comunes son:                                                          ||                                                                                                                      
+        ||                                                                                                                                              ||                                                        
+        ||      °¬ Humanidad hacia otras personas                                                                                                       ||                                                                         
+        ||      °¬ Si todos ganan, tú ganas                                                                                                             ||                                                                   
+        ||      °¬ Éramos porque nosotros somos                                                                                                         ||                                                                       
+        ||      °¬ Una persona se hace humana a través de las otras personas                                                                            ||                                                                                                    
+        ||      °¬ Una persona es persona en razón de las otras personas                                                                                ||                                                                                                
+        ||      °¬ Yo soy lo que soy en función de lo que todas las personas somos                                                                      ||                                                                                                          
+        ||      °¬ La creencia es un enlace universal de compartir que conecta a toda la humanidad                                                      ||                                                                                                                          
+        ||      °¬ Humildad                                                                                                                             ||                                                   
+        ||      °¬ Empatía                                                                                                                              ||                                                  
+        ||      °¬ Yo soy porque nosotros somos, y dado que somos, entonces yo soy                                                                      ||                                                                                                          
+        ||      °¬ Nosotros somos, por tanto soy, y dado que soy, entonces somos                                                                        ||                                                                                                        
+        ||      °¬ El bien común, es el bien propio                                                                                                     ||                                                                           
+        ||                                                                                                                                              ||                                                        
+        ||    Esta última es una definición más extensa y adecuada:                                                                                     ||                                                                                           
+        ||                                                                                                                                              ||                                      
+        ||        Una persona con Ubuntu es abierta y está disponible para las demás, respalda a las demás, no se siente amenazada cuando otras son     ||                                                                                                                                                                            
+        ||        capaces y son buenas en algo, porque está segura de sí misma ya que sabe que pertenece a una gran totalidad, que se decrece cuando    ||                                                                                                                                                                             
+        ||        otras personas son humilladas o menospreciadas, cuando otras son torturadas u oprimidas.                                              ||                                                                                                                                  
+        ||                                                                                                                            Desmond Tutu      ||
+        ||                                                                                                                                              ||
+        ||                                                                                                                                              ||                                                                                                                                                                          
+        ||    ( Wikipedia. 31 de Mayo 2024, 21:52 hrs. 'Ubuntu (Filosofía)'. Recuperado el 24 de Agosto del 2024 del sitio                              ||
+        ||    https://es.wikipedia.org/wiki/Ubuntu_(filosof%C3%ADa) )                                                                                   || 
+        ||                                                                                                                                              ||                                
+        ||                                                                                                                                              ||                            
+        ||      ''El concepto se basa en la creencia de que hay un vínculo humano universal que hace que los seres humanos sean capaces de superar retos||                                                                                                                                                                         
+        ||      porque están conectados.                                                                                                                ||                                                          
+        ||                                                                                                                                              ||                            
+        ||      'Ubuntu', mencionó Desmond Tutu, es uno de los mejores regalos que le ha dado África a la humanidad. Desmond Tutu fue un eclesiástico   ||                                                                                                                                                                        
+        ||      y político nacido el 7 de octubre de 1931 en Klerksdorp, Sudáfrica. Es reconocido por ser fiel defensor de los derechos humanos a tal   ||                                                                                                                                                                        
+        ||      grado que en 1984 fue reconocido con el Premio Nobel de la Paz por defender a las personas negras oprimidas en Sudáfrica durante la     ||                                                                                                                                                                      
+        ||      segregación y la opresión por el gobierno del apartheid, el cual les negaba los derechos humanos básicos como la libertad de asociación,||                                                                                                                                                                           
+        ||      de circulación y de reunión. Tras una lucha constante contra el cáncer de próstata, falleció el 26 de diciembre del 2021 a              ||                                                                                                                                                             
+        ||      la edad de noventa años.                                                                                                                ||                                                          
+        ||                                                                                                                                              ||                            
+        ||                                                                                                                                              ||                                  
+        ||                                                            'Ubuntu', soy quien soy por quien eres tú. La ética del cuidado del otro.         ||                                                                                                                                                                 
+        ||                                                                                                                                              ||                                  
+        ||                                                                                                                                              ||                                  
+        ||      “La base de esta filosofía es el respeto, por uno mismo y por los otros. Por eso, si eres capaz de ver a los demás, incluso a los       ||                                                                                                                                                                    
+        ||      desconocidos, como humanos de pleno derecho, jamás los tratarás mal o como si fueran inferiores”, dijo Hoffman en el seminario del C3.''||                                                                                                                                                                         
+        ||                                                                                                                                              ||                            
+        ||   ( Neri A. Torres. 5 de Mayo del 2022. 'Ubuntu: La filosofía africana de cuidar del otro'. Recuperado el 24 de Agosto del 2024 del sitio.   ||                                                                               
+        ||    https://www.c3.unam.mx/noticias/noticia217.html )                                                                                         ||                                                   
+        ||                                                                                                                                              ||                            
+        ||                                                                                                                                              ||                            
+        ||                                                                                                                                              ||                            
+        ||                                                                                                                                              ||                            
+        ||                                                                                                                                              ||                            
+        ||                                                                                                                                              ||                            
+        ||                                                                                                                                              ||                             
+        ||                                                                                                                                              || 
+        ||                                                                                                                                              || 
+        ||                                                                                                                                              || 
+        ||                                                                                                                                              || 
+        ||                                                                                                                                              || 
+        ||                                                                                                                                              || 
+        ()==============================================================================================================================================()
+
+
+    ")
+
+    // acceso al menú de selección 1
+    escribir ("
+
+        Por favor "..Nombre..", escriba 'menú' para ver el menú; o introduzca 0 y presione 'Enter' para salir de 
+        programa, o simplente presione 'Enter' para salir de programa.:
+    
+    ")
+    
+
+    beta = leer()
+    limpiar()
+
+    // bucle del menú de selección 1 
+    mientras beta != "menú"
+        escribir ("
+        
+        Por favor "..Nombre..", escriba 'menú' y presione 'Enter' para ver el menú; o introduzca 0 y presione 'Enter' para salir de 
+        programa, o simplente presione 'Enter' para salir de programa : 
+
+        (Si introdució 0 o simplemente presionó 'Enter' y el programa no se cerró, 
+        vuelva a introducir 0 o presione 'Enter' para que el programa se cierre)
+        
+        
+        ")
+
+        beta = leer()
+        limpiar()
+
+        si beta == 0
+            romper
+        fin
+    fin
+
+    si beta == 0
+        romper
+    fin
+    
+
+    // vista del menú de selección 1
+    escribir ("
+
+
+        Hola "..Nombre.." Estás en el menú de opciones de la Academia Ubuntu. aquí puedes elegir la materia que quieres estudiar.
+
+        Por favor "..Nombre..", introduce el número correspondiente a la materia que quieres estudiar:
+
+
+        ()=========================================================================()
+        ||     1. Matemáticas                      13. Arte                        ||                                                                                         
+        ||     2. Química                          14. Música                      ||                                                                                         
+        ||     3. Física                           15. Lenguaje y Comunicación     ||                                                                                                         
+        ||     4. Biología                         16. Ciencias                    ||                                                                                            
+        ||     5. Informática                      17. Sociologia                  ||                                                                                                 
+        ||     6. Electricidad                     18. Programación                ||                                                                                                    
+        ||     7. Electrónica                      19. Administración              ||                                                                                   
+        ||     8. Filosofía                                                        ||                                                                                 
+        ||     9. Lógica                                                           ||                                                                              
+        ||     10. Ciencias Politicas                                              ||                                                                                                 
+        ||     11. Derecho                                                         ||                                                                                                 
+        ||     12. Meedicina                                                       ||          
+        ()=========================================================================()
+    
+
+
+
+        "..Nombre..", si deseas salir del programa, solo escriba 0 y presione 'Enter', o simplemente presione 'Enter' para cerrar el programa. 
+    ")
+
+    x = leer()
+    limpiar()
+
+
+
+    elegir (x)
+        caso 0:
+            si x == 0
+                romper
+            fin
+        caso 1:
+
+            escribir ("Hola "..Nombre)
+            escribir ("
+
+
+                ()==================================================================================================================================()
+                ||                                                                                                                                  ||
+                ||    * itroduce cualquier número o letra, y después presiona la tecla 'Enter' para ver el menú de Matemáticas.                     ||                                                                                                              
+                ||                                                                                                                                  ||     
+                ||    * introduce el número 0 y presiona la tecla 'Enter' para volver al menú principal, o simplemente presiona la tecla 'Enter'.   ||                                     ||                                                                                       
+                ||                                                                                                                                  ||     
+                ()==================================================================================================================================()
+                
+
+            ")
+
+            eleMate = leer()
+            limpiar()
+
+            mientras eleMate != 0
+
+                escribir ("
+            
+                    Hola, bienvenido: haz elegido la materia de Matemáticas
+                    
+        
+                    Por favor, introduce el número correspondiente a la rama que quieres estudiar:
+        
+                    1. Aritmética
+                    2. Àlgebra
+                    3. Geometría
+                    4. Cálculo
+        
+                    para salirr al menù principal introduce 0 y presiona la tecla 'Enter'
+    
+    
+    
+                ")
+
+
+                eleMate = leer()
+                limpiar()
+
+                elegir (eleMate)
+                    
+                    caso 1:
+
+                        escribir ("
+                        
+                        Haz elegido Aritmética
+                        
+                        ¿qué rama de la Aritmetica te gustarìa estudiar?
+
+                        1. números
+                        2. Operaciones
+                        
+                        *Presiona cualquier número o letra para volver al menù de Matemáticas.
+                        
+                        *Presiona 0 y presiona la tecla 'Enter' para volver al menù principal, o simplemente presiona la tecla 'Enter'.
+                        
+                        ")
+
+                        eleMate = leer()
+                        limpiar()
+
+                    caso 2:
+
+                        escribir ("
+                        
+                        Haz elegido Àlgebra
+                        
+                        ¿qué rama de la Álgebra te gustarìa estudiar?
+
+                        1. Geometría
+                        2. Cálculo
+
+                        *Presiona cualquier número o letra para volver al menù de Matemáticas.
+                        
+                        *Presiona 0 y presiona la tecla 'Enter' para volver al menù principal, o simplemente presiona la tecla 'Enter'.
+                        
+                        
+                        ")
+
+                        eleMate = leer()
+                        limpiar()
+
+                    caso 3:
+
+                        escribir ("
+                        
+                        Haz elegido Geometrìa
+                        
+                        ¿qué rama de la Geometría te gustarìa estudiar?
+
+                        1. Cálculo
+                        2. Cálculo
+
+                        *Presiona cualquier número o letra para volver al menù de Matemáticas.
+                        
+                        *Presiona 0 y presiona la tecla 'Enter' para volver al menù principal, o simplemente presiona la tecla 'Enter'.
+                        
+                        ")
+
+                        eleMate = leer()
+                        limpiar()
+
+                    caso 4:
+
+                        escribir ("
+                        
+                        
+                        Haz elegido Cálculo
+                        
+                        ¿qué rama de la Cálculo te gustarìa estudiar?
+                        
+                        1. Aritmética
+                        2. Álgebra
+                        
+                        *Presiona cualquier número o letra para volver al menù de Matemáticas.
+                        
+                        *Presiona 0 y presiona la tecla 'Enter' para volver al menù principal, o simplemente presiona la tecla 'Enter'.
+                        
+                        ")
+
+                        eleMate = leer()
+                        limpiar()
+                        
+
+                    defecto :
+
+                        escribir ("
+
+                        *Introduce cualquier número o letra, y preiona enter para volver al menú de Matemáticas.
+                        
+                        *Presiona 0 y presiona la tecla 'Enter' para ver màs opciones disponibles.
+                        
+                        ")
+
+                        eleMate = leer()
+                        limpiar()                    
+                fin
+            fin
+
+
+        caso 2:
+            escribir ("Haz elegido química")
+            escribir ("¿qué rama de la Quìmica te gustarìa estudiar?")
+        caso 3:
+            escribir ("Haz elegido Física")
+            escribir ("¿qué rama de la Física te gustarìa estudiar?")
+        caso 4:
+            escribir ("Haz elegido biología")
+            escribir ("¿qué rama de la Biología te gustarìa estudiar?")
+        caso 5:
+            escribir ("Haz elegido Informática")
+            escribir ("¿qué rama de la Informática te gustarìa estudiar?")
+        caso 6:
+            escribir ("Haz elegido Electricidad")
+            escribir ("¿qué rama de la Electricidad te gustarìa estudiar?")
+        caso 7:
+            escribir ("Haz elegido Electrónica")
+            escribir ("¿qué rama de la Electrónica te gustarìa estudiar?")
+        caso 8:
+            escribir ("Haz elegido Filosofìa")
+            escribir ("¿qué rama de la Filosofía te gustarìa estudiar?")
+        caso 9:
+            escribir ("Haz elegido Lógica")
+            escribir ("¿qué rama de la Lógica te gustarìa estudiar?")
+        caso 10:
+            escribir ("Haz elegido Arte")
+            escribir ("¿qué rama de la Arte te gustarìa estudiar?")
+        caso 11:
+            escribir ("Haz elegido Mùsica")
+            escribir ("¿qué rama de la Música te gustarìa estudiar?")
+        caso 12:
+            escribir ("Haz elegido Lenguaje y Comunicación")
+            escribir ("¿qué rama de la Lenguaje y Comunicación te gustarìa estudiar?")
+        caso 13:
+            escribir ("Haz elegido Ciencias")
+            escribir ("¿qué rama de la Ciencias te gustarìa estudiar?")
+        caso 14:
+            escribir ("Haz elegido Sociologìa")
+            escribir ("¿qué rama de la Sociología te gustarìa estudiar?")
+        caso 15:
+            escribir ("
+            
+            Haz elegido Programación
+            
+            ¿qué te gustaría estudiar?
+
+            1. Fundamentos de Programación
+            2. Lenguajes de Programación
+            3. Lenguaje de Programación Latino
+            
+            
+            ")
+        defecto:
+            escribir ("
+                
+                ()===================================()
+                ||                                   ||                      
+                ||                                   ||                      
+                ||  No haz elegido ninguna materia   ||                                                    
+                ||                                   ||                      
+                ||                                   ||                      
+                ()===================================()                                                                   
+
+
+            ")
+    fin
+
+    escribir (Nombre)
+
+    escribir ("
+     
+        ()==================================================================================================================()
+        ||                                                                                                                  ||
+        ||     * Para volver a ver el menu, introduce cualquier número o letra, y despúes presiona la tecla 'Enter'.        ||                                                                                                              
+        ||                                                                                                                  ||      
+        ||     * Para cerrar el programa introduce 0 y presiona la tecla 'Enter', o simplemente presiona la tecla 'Enter'.  ||                                                                          
+        ||                                                                                                                  ||      
+        ()==================================================================================================================()
+                                                                                                                       
+    ")
+
+    x = leer()
+    limpiar()
+
+
+
+    
+
+
+fin
+
+
+si (x == 0) || (beta == 0)
+
+    escribir ("
+    
+    Gracias "..Nombre..", por utilizar este programa: !vuelve pronto¡: La Academia Ubuntu siempre estará  aquí para ayudarte :)
+    
+    ")
+
+    sis.dormir(5)
+    limpiar()
+    
+fin
