@@ -26,6 +26,7 @@ Licencia de La Academia Ubuntu
 
 La Academia Ubuntu está bajo licencia MIT. Para ver la licencia, accede al siguiente enlace:
 
+
 Contribuciones
 
 Para contribuir a este proyecto, puedes simplemente compartir el Software de La Academia Ubuntu.
