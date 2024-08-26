@@ -9,27 +9,50 @@ cualquier ideología-filosofía que fomente la educación gratuita y de la mejor
 base a la colaboración y el apoyo de la comunidad, y de la inteligencia colectiva de voluntarios que gusten sumarse a este proyecto.
 
 
-Instrucciones de Instalación
+# Instrucciones de Instalación
 
-Requisitos previos: necesitas tener el Lenguaje de Programación Latino instalado en tu sistema operativo.
+°¬ Requisitos previos: necesitas tener el Lenguaje de Programación Latino instalado en tu sistema operativo.
 Para instalar Latino, entra al siguiente enlace: https://www.lenguajelatino.org/p/descarga.html
 
-Una vez instalado Latino en tu Sistema Operativo, solo debes de ejecutar en la consola de comandos la orden latino LAU.lat
+°¬ Una vez instalado Latino en tu Sistema Operativo, solo debes de ejecutar en la consola de comandos la orden latino LAU.lat
 para ejecutar el programa.
 
 
-Instrucciones de uso
+# Instrucciones de uso
 
-Latino pretende ser una especie de 'enciclopedia digital', en la cual el usuario puede modificar su contenido para adaptarlo a sus necesidades.
+La Academia Ubuntu pretende ser una especie de 'enciclopedia-biblioteca digital', en la cual el usuario puede modificar su contenido para adaptarlo a sus necesidades, o simplemente descargar el software y estudiar, para aprender y/o mejorar sus habilidades en el estudio que le interesa.
 
-Licencia de La Academia Ubuntu
+# Licencia de La Academia Ubuntu
 
-La Academia Ubuntu está bajo licencia MIT. Para ver la licencia, accede al siguiente enlace:
+La Academia Ubuntu está bajo licencia MIT:
+
+MIT License
+
+Copyright (c) 2024 La Academia Ubuntu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
-Contribuciones
+# Contribuciones
 
-Para contribuir a este proyecto, puedes simplemente compartir el Software de La Academia Ubuntu.
-También puedes  hacer donaciones para que el creador pueda seguir desarrollando este proyecto:
+Para contribuir a este proyecto, por el momento puedes simplemente compartir el Software de La Academia Ubuntu, o si
+quieres contribuir aportando tus conocimientos, puedes hacerlo modificando el software y enviar tu contribución
+
 
 
