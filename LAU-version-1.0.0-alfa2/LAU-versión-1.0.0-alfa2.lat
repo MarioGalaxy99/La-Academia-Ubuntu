@@ -1,0 +1,1093 @@
+/*
+
+        ██╗      █████╗      █████╗  ██████╗ █████╗ ██████╗ ███████╗███╗   ███╗██╗ █████╗     ██╗   ██╗██████╗ ██╗   ██╗███╗   ██╗████████╗██╗   ██╗
+        ██║     ██╔══██╗    ██╔══██╗██╔════╝██╔══██╗██╔══██╗██╔════╝████╗ ████║██║██╔══██╗    ██║   ██║██╔══██╗██║   ██║████╗  ██║╚══██╔══╝██║   ██║
+        ██║     ███████║    ███████║██║     ███████║██║  ██║█████╗  ██╔████╔██║██║███████║    ██║   ██║██████╔╝██║   ██║██╔██╗ ██║   ██║   ██║   ██║
+        ██║     ██╔══██║    ██╔══██║██║     ██╔══██║██║  ██║██╔══╝  ██║╚██╔╝██║██║██╔══██║    ██║   ██║██╔══██╗██║   ██║██║╚██╗██║   ██║   ██║   ██║
+        ███████╗██║  ██║    ██║  ██║╚██████╗██║  ██║██████╔╝███████╗██║ ╚═╝ ██║██║██║  ██║    ╚██████╔╝██████╔╝╚██████╔╝██║ ╚████║   ██║   ╚██████╔╝
+        ╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝     ╚═╝╚═╝╚═╝  ╚═╝     ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝   ╚═╝    ╚═════╝ 
+   
+
+Creador: Mario Carrillo González
+
+
+*/ 
+
+
+
+limpiar()
+
+//Algunas variables globales del programa
+eleMenu = tipo("Ubuntu" && 1) 
+beta = tipo("Ubuntu" && 1)
+x = tipo ("Ubuntu" && 1)
+
+
+
+//Pantalla de carga
+escribir ("
+
+
+        ██╗      █████╗      █████╗  ██████╗ █████╗ ██████╗ ███████╗███╗   ███╗██╗ █████╗     ██╗   ██╗██████╗ ██╗   ██╗███╗   ██╗████████╗██╗   ██╗
+        ██║     ██╔══██╗    ██╔══██╗██╔════╝██╔══██╗██╔══██╗██╔════╝████╗ ████║██║██╔══██╗    ██║   ██║██╔══██╗██║   ██║████╗  ██║╚══██╔══╝██║   ██║
+        ██║     ███████║    ███████║██║     ███████║██║  ██║█████╗  ██╔████╔██║██║███████║    ██║   ██║██████╔╝██║   ██║██╔██╗ ██║   ██║   ██║   ██║
+        ██║     ██╔══██║    ██╔══██║██║     ██╔══██║██║  ██║██╔══╝  ██║╚██╔╝██║██║██╔══██║    ██║   ██║██╔══██╗██║   ██║██║╚██╗██║   ██║   ██║   ██║
+        ███████╗██║  ██║    ██║  ██║╚██████╗██║  ██║██████╔╝███████╗██║ ╚═╝ ██║██║██║  ██║    ╚██████╔╝██████╔╝╚██████╔╝██║ ╚████║   ██║   ╚██████╔╝
+        ╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝     ╚═╝╚═╝╚═╝  ╚═╝     ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝   ╚═╝    ╚═════╝ 
+                                                                                                                                            
+                                                        ()============================================()
+                                                        ||                                            ||
+                                                        ||          'La Academia UBUNTU'              ||
+                                                        ||                                            ||
+                                                        ||           versión 1.0.0-alfa2              ||
+                                                        ||                                            ||
+                                                        ||    Creado por Mario Carrillo Gonzàlez      ||
+                                                        ||                                            ||
+                                                        ()============================================()
+
+
+    Arte ASCII creado con ayuda de:
+    
+    https://www.creativefabrica.com
+
+    https://es.rakko.tools/tools/68/
+
+    https://www.ascii-art-generator.org/es.html
+
+    https://github.com/jlevy/the-art-of-command-line
+
+
+    (##)===============================================================================================================================================(##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)----------------------------------------------------------------- ENGLISH ---------------------------------------------------------------------(##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)           MIT License                                                                                                                         (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)           Copyright (c) 2024 - La Academia Ubuntu                                                                                             (##)
+    (##)                                                                                                                                               (##)
+    (##)           Permission is hereby granted, free of charge, to any person obtaining a copy                                                        (##)
+    (##)           of this software and associated documentation files (the 'Software'), to deal                                                       (##)
+    (##)           in the Software without restriction, including without limitation the rights                                                        (##)
+    (##)           to use, copy, modify, merge, publish, distribute, sublicense, and/or sell                                                           (##)
+    (##)           copies of the Software, and to permit persons to whom the Software is                                                               (##)
+    (##)           furnished to do so, subject to the following conditions:                                                                            (##)
+    (##)                                                                                                                                               (##)
+    (##)           The above copyright notice and this permission notice shall be included in all                                                      (##)
+    (##)           copies or substantial portions of the Software.                                                                                     (##)
+    (##)                                                                                                                                               (##)
+    (##)           THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR                                                          (##)
+    (##)           IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,                                                            (##)
+    (##)           FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE                                                         (##)
+    (##)           AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER                                                              (##)
+    (##)           LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,                                                       (##)
+    (##)           OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE                                                       (##)
+    (##)           SOFTWARE.                                                                                                                           (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)----------------------------------------------------------------- ESPAÑOL ---------------------------------------------------------------------(##)
+    (##)                                                                                                                                               (##)
+    (##)       Licencia MIT                                                                                                                            (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)       Copyright (c) 2024 - La Academia Ubuntu                                                                                                 (##)
+    (##)                                                                                                                                               (##)
+    (##)       Por la presente, se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia                                       (##)
+    (##)       de este software y archivos de documentacion asociados (el 'Software'), para utilizar                                                   (##)
+    (##)       el Software sin restriccion, incluyendo sin limitacion los derechos                                                                     (##)
+    (##)       para usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender                                                   (##)
+    (##)       copias del Software, y para permitir a las personas a quienes se les proporcione el Software                                            (##)
+    (##)       que lo hagan, sujeto a las siguientes condiciones:                                                                                      (##)
+    (##)                                                                                                                                               (##)
+    (##)       El aviso de copyright anterior y este aviso de permiso se incluirán en                                                                  (##)
+    (##)       todas las copias o partes sustanciales del Software.                                                                                    (##)
+    (##)                                                                                                                                               (##)
+    (##)       EL SOFTWARE SE PROPORCIONA 'TAL CUAL', SIN GARANTIA DE NINGUN TIPO, EXPRESA O                                                           (##)       
+    (##)       IMPLICITAS, INCLUYENDO PERO NO LIMITADO A LAS GARANTIAS DE COMERCIALIZACION,                                                            (##)
+    (##)       IDONEIDAD PARA UN PROPOSITO PARTICULAR Y NO INFRACCION. EN NINGUN CASO LOS                                                              (##)
+    (##)       AUTORES O TITULARES DEL COPYRIGHT SERAN RESPONSABLES POR NINGUN RECLAMO, DAÑOS U OTRA                                                   (##)
+    (##)       RESPONSABILIDAD, YA SEA EN UNA ACCION DE CONTRATO, AGRAVIO O CUALQUIER OTRA FORMA, DERIVADOS DE,                                        (##)
+    (##)       QUE SURJAN DE, O EN RELACION CON EL SOFTWARE O EL USO U OTROS TIPOS DE ACCIONES EN                                                      (##)
+    (##)       EL SOFTWARE.                                                                                                                            (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)                                                                                                                                               (##)
+    (##)===============================================================================================================================================(##)
+
+    Por favor, Introdúzca su nombre:
+
+")  
+
+Nombre = leer()
+abc = "Nombre Usuario"
+
+mientras tipo(Nombre) != tipo (abc)
+
+    escribir ("
+
+        ()========================================()
+        ()                                        ()
+        ()                                        ()
+        ()    Por favor, introduzca su nombre:    ()
+        ()                                        ()
+        ()========================================()
+        
+    ")
+
+
+    Nombre = leer()
+    limpiar()
+fin
+
+limpiar()
+
+// Sección de selección de pantalla de bienvenida
+escribir ("Hola "..Nombre)
+escribir ("
+
+    bienvenido a 'La Academia UBUNTU'
+
+
+    ()============================================================================================================================()
+    ||                                                                                                                            ||
+    ||     * Introduce la palabra 'Ubuntu', y despúes presiona la tecla 'Enter', para dirigirte a la pantalla de bienvenida.      ||
+    ||                                                                                                                            ||
+    ||     * Para cerrar el programa, introduce el número 0 y presiona la tecla 'Enter', o simplemente presiona la tecla 'Enter'. ||
+    ||                                                                                                                            ||
+    ()============================================================================================================================()
+
+
+") 
+
+x = leer()
+limpiar()
+
+mientras (x != "Ubuntu") && (x != "ubuntu") && (x != 0)
+
+    escribir ("
+
+
+        ()============================================================================================================================()
+        ()                                                                                                                            ()
+        ()    Por favor "..Nombre..", introduzca 'Ubuntu' y presione 'Enter' para dirigirte a la pantalla de bienvenida;              ()
+        ()    o introduzca 0 y presione 'Enter' para cerrar el programa, o simprlente presione 'Enter' para cerrar el programa :      ()
+        ()                                                                                                                            ()
+        ()============================================================================================================================()
+
+    ")
+    x = leer()
+    limpiar()
+fin
+
+
+// Cuerpo del programa
+mientras x != 0
+
+    // Pantalla de bienvenida e introducción
+    escribir ("
+
+
+
+
+        ██╗      █████╗      █████╗  ██████╗ █████╗ ██████╗ ███████╗███╗   ███╗██╗ █████╗     ██╗   ██╗██████╗ ██╗   ██╗███╗   ██╗████████╗██╗   ██╗
+        ██║     ██╔══██╗    ██╔══██╗██╔════╝██╔══██╗██╔══██╗██╔════╝████╗ ████║██║██╔══██╗    ██║   ██║██╔══██╗██║   ██║████╗  ██║╚══██╔══╝██║   ██║
+        ██║     ███████║    ███████║██║     ███████║██║  ██║█████╗  ██╔████╔██║██║███████║    ██║   ██║██████╔╝██║   ██║██╔██╗ ██║   ██║   ██║   ██║
+        ██║     ██╔══██║    ██╔══██║██║     ██╔══██║██║  ██║██╔══╝  ██║╚██╔╝██║██║██╔══██║    ██║   ██║██╔══██╗██║   ██║██║╚██╗██║   ██║   ██║   ██║
+        ███████╗██║  ██║    ██║  ██║╚██████╗██║  ██║██████╔╝███████╗██║ ╚═╝ ██║██║██║  ██║    ╚██████╔╝██████╔╝╚██████╔╝██║ ╚████║   ██║   ╚██████╔╝
+        ╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝     ╚═╝╚═╝╚═╝  ╚═╝     ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝   ╚═╝    ╚═════╝ 
+                                                                                                                                            
+
+
+
+
+                                                ()==================================================================()
+                                                ||                                                                  ||
+                                                ||                                                                  ||
+                                                ||       Hola "..Nombre..", bienvenido a 𝐿𝑎 𝐴𝑐𝑎𝑑𝑒𝑚𝑖𝑎 𝑈𝑏𝑢𝑛𝑡𝑢           ||
+                                                ||                                                                  ||
+                                                ||                                                                  ||
+                                                ||                                                                  ||
+                                                ()==================================================================()
+
+
+        ()==============================================================================================================================================()
+        ||                                                                                                                                              || 
+        ||   'La Academia Ubuntu' es un proyecto de software libre que pretende ayudar a las personas a aprender y/o mejorar sus habilidades en         || 
+        ||    cualquier ámbito del saber, ya sea en ciencias como Matematicas, Química, Física, Biologia, etc., o en estudios como Filosofía, Arte,     || 
+        ||    Música, Linguística, Idiomas, etc.; todo bajo la ideología-filosofía 'Ubuntu', así como de la Educación Abierta, Educación Libertária, y  ||
+        ||    cualquier ideología-filosofía que fomente la educación gratuita y de la mejor calidad posible, para fomentar un futuro mejor; todo en     ||
+        ||    base a la colaboración y el apoyo de la comunidad, de la Inteligencia Colectiva de voluntarios que gusten sumarse a este proyecto, además ||
+        ||    del apoyo que nos ofrece la Inteligencia Artificial para contribuir y mejorar el contenido de este proyecto.                              ||
+        ||                                                                                                                                              ||
+        ||    °¬ Significado de la palabra 'Ubuntu'                                                                                                     ||
+        ||                                                                                                                                              ||
+        ||    Puede que la palabra 'Ubuntu' sea más conocida por ser el nombre de uno de los distro más populares del sistema GNU/Linux; pero esa       ||
+        ||    palabra proviene de las lenguas zulú y xhosa, lenguas que son unos idiomas de Sudáfrica.                                                  ||
+        ||                                                                                                                                              ||
+        ||    Hay varias traducciones posibles del término Ubuntu al español, las comunes son:                                                          ||
+        ||                                                                                                                                              ||
+        ||      °¬ Humanidad hacia otras personas                                                                                                       ||
+        ||      °¬ Si todos ganan, tú ganas                                                                                                             ||
+        ||      °¬ Éramos porque nosotros somos                                                                                                         ||
+        ||      °¬ Una persona se hace humana a través de las otras personas                                                                            ||
+        ||      °¬ Una persona es persona en razón de las otras personas                                                                                ||
+        ||      °¬ Yo soy lo que soy en función de lo que todas las personas somos                                                                      ||
+        ||      °¬ La creencia es un enlace universal de compartir que conecta a toda la humanidad                                                      ||
+        ||      °¬ Humildad                                                                                                                             ||
+        ||      °¬ Empatía                                                                                                                              ||
+        ||      °¬ Yo soy porque nosotros somos, y dado que somos, entonces yo soy                                                                      ||
+        ||      °¬ Nosotros somos, por tanto soy, y dado que soy, entonces somos                                                                        ||
+        ||      °¬ El bien común, es el bien propio                                                                                                     ||
+        ||                                                                                                                                              ||
+        ||    Esta última es una definición más extensa y adecuada:                                                                                     ||
+        ||                                                                                                                                              ||
+        ||        Una persona con Ubuntu es abierta y está disponible para las demás, respalda a las demás, no se siente amenazada cuando otras son     ||
+        ||        capaces y son buenas en algo, porque está segura de sí misma ya que sabe que pertenece a una gran totalidad, que se decrece cuando    ||
+        ||        otras personas son humilladas o menospreciadas, cuando otras son torturadas u oprimidas.                                              ||
+        ||                                                                                                                            Desmond Tutu      ||
+        ||                                                                                                                                              ||
+        ||                                                                                                                                              ||
+        ||    ( Wikipedia. 31 de Mayo 2024, 21:52 hrs. 'Ubuntu (Filosofía)'. Recuperado el 24 de Agosto del 2024 del sitio                              ||
+        ||    https://es.wikipedia.org/wiki/Ubuntu_(filosof%C3%ADa) )                                                                                   ||
+        ||                                                                                                                                              ||
+        ||                                                                                                                                              ||
+        ||      ''El concepto se basa en la creencia de que hay un vínculo humano universal que hace que los seres humanos sean capaces de superar retos||
+        ||      porque están conectados.                                                                                                                ||
+        ||                                                                                                                                              ||
+        ||      'Ubuntu', mencionó Desmond Tutu, es uno de los mejores regalos que le ha dado África a la humanidad. Desmond Tutu fue un eclesiástico   ||
+        ||      y político nacido el 7 de octubre de 1931 en Klerksdorp, Sudáfrica. Es reconocido por ser fiel defensor de los derechos humanos a tal   ||
+        ||      grado que en 1984 fue reconocido con el Premio Nobel de la Paz por defender a las personas negras oprimidas en Sudáfrica durante la     ||
+        ||      segregación y la opresión por el gobierno del apartheid, el cual les negaba los derechos humanos básicos como la libertad de asociación,||
+        ||      de circulación y de reunión. Tras una lucha constante contra el cáncer de próstata, falleció el 26 de diciembre del 2021 a              ||
+        ||      la edad de noventa años.                                                                                                                ||
+        ||                                                                                                                                              ||
+        ||                                                                                                                                              ||
+        ||                                                            'Ubuntu', soy quien soy por quien eres tú. La ética del cuidado del otro.         ||
+        ||                                                                                                                                              ||
+        ||                                                                                                                                              ||
+        ||      “La base de esta filosofía es el respeto, por uno mismo y por los otros. Por eso, si eres capaz de ver a los demás, incluso a los       ||
+        ||      desconocidos, como humanos de pleno derecho, jamás los tratarás mal o como si fueran inferiores”, dijo Hoffman en el seminario del C3.''||
+        ||                                                                                                                                              ||
+        ||   ( Neri A. Torres. 5 de Mayo del 2022. 'Ubuntu: La filosofía africana de cuidar del otro'. Recuperado el 24 de Agosto del 2024 del sitio.   ||
+        ||    https://www.c3.unam.mx/noticias/noticia217.html )                                                                                         ||
+        ||                                                                                                                                              ||
+        ||                                                                                                                                              ||
+        ||                                                                                                                                              ||
+        ||                                                                                                                                              ||
+        ||                                                                                                                                              ||
+        ||                                                                                                                                              ||
+        ||                                                                                                                                              ||
+        ||                                                                                                                                              ||
+        ||                                                                                                                                              ||
+        ||                                                                                                                                              ||
+        ||                                                                                                                                              ||
+        ||                                                                                                                                              ||
+        ||                                                                                                                                              ||
+        ()==============================================================================================================================================()
+
+
+    ")
+
+
+    // acceso al menú de selección 1
+    escribir ("
+
+            ()=============================================================================================================================()
+            ()                                                                                                                             ()
+            ()    Por favor "..Nombre..", escriba 'menú' para ver el menú; o introduzca 0 y presione 'Enter' para salir de                 ()
+            ()    programa, o simplente presione 'Enter' para salir de programa.:                                                          ()
+            ()                                                                                                                             ()
+            ()=============================================================================================================================()
+
+    ")
+
+    beta = leer()
+    limpiar()
+
+    // bucle del menú de selección 1 
+    mientras (beta != ("menú") && (beta != ("menu")) && (beta != ("Menú")) && (beta != ("Menu")))
+
+
+        escribir ("
+                                                                                                                                                 
+            ()====================================================================================================================================()
+            ()                                                                                                                                    () 
+            ()    Por favor "..Nombre..", escriba 'menú' y presione 'Enter' para ver el menú; o introduzca 0 y presione 'Enter' para salir de     ()
+            ()    programa, o simplente presione 'Enter' para salir de programa :                                                                 ()  
+            ()                                                                                                                                    ()
+            ()    (Si introdució 0 o simplemente presionó 'Enter' y el programa no se cerró,                                                      ()      
+            ()    vuelva a introducir 0 o presione 'Enter' para que el programa se cierre)                                                        ()   
+            ()                                                                                                                                    ()   
+            ()====================================================================================================================================()
+        ")
+
+        beta = leer()
+        limpiar()
+
+        si beta == 0
+            romper
+        fin
+    fin
+
+    si beta == 0
+        romper
+    fin
+    
+
+    // vista del menú de selección 1
+    escribir ("
+
+
+        Hola "..Nombre.." Estás en el menú de opciones de la Academia Ubuntu. aquí puedes elegir la materia que quieres estudiar.
+
+        Por favor "..Nombre..", introduce el número correspondiente a la materia que quieres estudiar:
+
+
+        ()=========================================================================()
+        ||     1. Matemáticas                      13. Arte                        ||
+        ||     2. Química                          14. Música                      ||
+        ||     3. Física                           15. Lenguaje y Comunicación     ||
+        ||     4. Biología                         16. Ciencias                    ||
+        ||     5. Informática                      17. Sociologia                  ||
+        ||     6. Electricidad                     18. Programación                ||
+        ||     7. Electrónica                      19. Administración              ||
+        ||     8. Filosofía                        20. Inglés                      ||
+        ||     9. Lógica                           21. Historia                    ||
+        ||     10. Ciencias Politicas              22. Lingüística                 ||
+        ||     11. Derecho                                                         ||
+        ||     12. Medicina                                                        ||
+        ()=========================================================================()
+    
+
+
+
+        "..Nombre..", si deseas salir del programa, solo escriba 0 y presione 'Enter', o simplemente presione 'Enter' para cerrar el programa. 
+    ")
+
+    x = leer()
+    limpiar()
+
+    elegir (x)
+        caso 0:
+            si x == 0
+                romper
+            fin
+        caso 1:
+
+            escribir ("Hola "..Nombre)
+            escribir ("
+
+
+                ()==================================================================================================================================()
+                ||                                                                                                                                  ||
+                ||    * itroduce cualquier número o letra, y después presiona la tecla 'Enter' para ver el módulo de Matemáticas.                   ||                                                                                                              
+                ||                                                                                                                                  ||     
+                ||    * introduce el número 0 y presiona la tecla 'Enter' para volver al menú principal, o simplemente presiona la tecla 'Enter'.   ||                                     ||                                                                                       
+                ||                                                                                                                                  ||     
+                ()==================================================================================================================================()
+                
+
+            ")
+
+            eleMenu = leer()
+            limpiar()
+
+            mientras eleMenu != 0
+
+                escribir ("
+            
+                    Hola, bienvenido: haz elegido la materia de Matemáticas
+                    
+        
+                    Por favor, introduce el número correspondiente a la rama que quieres estudiar:
+        
+                    1. Aritmética
+                    2. Àlgebra
+                    3. Geometría
+                    4. Cálculo
+        
+                    para salirr al menù principal introduce 0 y presiona la tecla 'Enter'
+    
+    
+    
+                ")
+
+
+                eleMenu = leer()
+                limpiar()
+
+                elegir (eleMenu)
+                    
+                    caso 1:
+
+                        escribir ("
+                        
+                        Haz elegido Aritmética
+                        
+                        ¿qué rama de la Aritmetica te gustaría estudiar?
+
+                        1. números
+                        2. Operaciones
+                        
+                        *Presiona cualquier número o letra para volver al menù de Matemáticas.
+                        
+                        *Presiona 0 y presiona la tecla 'Enter' para volver al menù principal, o simplemente presiona la tecla 'Enter'.
+                        
+                        ")
+
+                        eleMenu = leer()
+                        limpiar()
+
+                    caso 2:
+
+                        escribir ("
+                        
+                        Haz elegido Àlgebra
+                        
+                        ¿qué rama de la Álgebra te gustaría estudiar?
+
+                        1. Geometría
+                        2. Cálculo
+
+                        *Presiona cualquier número o letra para volver al menù de Matemáticas.
+                        
+                        *Presiona 0 y presiona la tecla 'Enter' para volver al menù principal, o simplemente presiona la tecla 'Enter'.
+                        
+                        
+                        ")
+
+                        eleMenu = leer()
+                        limpiar()
+
+                    caso 3:
+
+                        escribir ("
+                        
+                        Haz elegido Geometrìa
+                        
+                        ¿qué rama de la Geometría te gustaría estudiar?
+
+                        1. Cálculo
+                        2. Cálculo
+
+                        *Presiona cualquier número o letra para volver al menù de Matemáticas.
+                        
+                        *Presiona 0 y presiona la tecla 'Enter' para volver al menù principal, o simplemente presiona la tecla 'Enter'.
+                        
+                        ")
+
+                        eleMenu = leer()
+                        limpiar()
+
+                    caso 4:
+
+                        escribir ("
+                        
+                        
+                        Haz elegido Cálculo
+                        
+                        ¿qué rama de la Cálculo te gustaría estudiar?
+                        
+                        1. Aritmética
+                        2. Álgebra
+                        
+                        *Presiona cualquier número o letra para volver al menù de Matemáticas.
+                        
+                        *Presiona 0 y presiona la tecla 'Enter' para volver al menù principal, o simplemente presiona la tecla 'Enter'.
+                        
+                        ")
+
+                        eleMenu = leer()
+                        limpiar()
+                        
+
+                    defecto :
+
+                        escribir ("
+
+                        *Introduce cualquier número o letra, y preiona enter para volver al menú de Matemáticas.
+                        
+                        *Presiona 0 y presiona la tecla 'Enter' para ver màs opciones disponibles.
+                        
+                        ")
+
+                        eleMate = leer()
+                        limpiar()                    
+                fin
+            fin
+
+
+        caso 2:
+            escribir ("Haz elegido Química")
+            escribir ("¿qué rama de la Quìmica te gustaría estudiar?")
+        caso 3:
+            escribir ("Haz elegido Física")
+            escribir ("¿qué rama de la Física te gustaría estudiar?")
+        caso 4:
+            escribir ("Haz elegido Biología")
+            escribir ("¿qué rama de la Biología te gustaría estudiar?")
+        caso 5:
+            escribir ("Haz elegido Informática")
+            escribir ("¿qué rama de la Informática te gustaría estudiar?")
+        caso 6:
+            escribir ("Haz elegido Electricidad")
+            escribir ("¿qué rama de la Electricidad te gustaría estudiar?")
+        caso 7:
+            escribir ("Haz elegido Electrónica")
+            escribir ("¿qué rama de la Electrónica te gustaría estudiar?")
+        caso 8:
+            escribir ("Haz elegido Filosofía")
+            escribir ("¿qué rama de la Filosofía te gustaría estudiar?")
+        caso 9:
+            escribir ("Haz elegido Lógica")
+            escribir ("¿qué rama de la Lógica te gustaría estudiar?")
+        caso 10:
+            escribir ("Haz elegido Ciencias Políticas")
+            escribir ("¿qué rama de las Ciencias Políticas te gustaría estudiar?")
+        caso 11:
+            escribir ("Haz elegido Derecho")
+            escribir ("¿qué rama del Derecho te gustaría estudiar?")
+        caso 12:
+            escribir ("Haz elegido Medicina")
+            escribir ("¿qué rama de la Medicina te gustaría estudiar?")
+        caso 13:
+            escribir ("Haz elegido Arte")
+            escribir ("¿qué rama de la Arte te gustaría estudiar?")
+        caso 14:
+            escribir ("Haz elegido Música")
+            escribir ("¿qué rama de la Música te gustaría estudiar?")
+        caso 15:
+            escribir ("Haz elegido Lenguaje y Comunicación")
+            escribir ("¿qué rama de la Lenguaje y Comunicación te gustaría estudiar?")
+        caso 16:
+            escribir ("Haz elegido Ciencias")
+            escribir ("¿qué rama de la Ciencias te gustaría estudiar?")
+        caso 17:
+            escribir ("Haz elegido Sociologìa")
+            escribir ("¿qué rama de la Sociología te gustaría estudiar?")
+        caso 18:
+
+            escribir ("Hola "..Nombre)
+            escribir ("
+
+
+                ()==================================================================================================================================()
+                ||                                                                                                                                  ||
+                ||    * itroduce cualquier número o letra, y después presiona la tecla 'Enter' para entrar al módulo de Programación.               ||
+                ||                                                                                                                                  ||
+                ||    * introduce el número 0 y presiona la tecla 'Enter' para volver al menú principal, o simplemente presiona la tecla 'Enter'.   ||
+                ||                                                                                                                                  ||
+                ()==================================================================================================================================()
+                
+
+            ")
+
+
+            eleMenu = leer()
+            limpiar()
+
+            mientras eleMenu != 0
+
+
+                escribir ("
+                
+                    Hola, "..Nombre..": bienvenido al estudio de la Programación
+                    
+
+
+                    'Cualquier tonto puede escribir código que una computadora entienda. Los buenos 
+                    programadores escriben código que los humanos puedan entender.'
+                                                                                        Martin Fowler
+
+
+
+
+                    * Para ver el índice de la Sección de Programación, introduce el número 1
+
+                    * Para salir al menú principal, introduzca 0 y presione la tecla 'Enter', o simplemente presione la tecla 'Enter'.
+
+                ")
+
+                eleMenu = leer()
+                limpiar()
+
+
+                mientras eleMenu != 0 && eleMenu != 1 
+                    escribir ("
+                    
+                        "..Nombre.." No haz elegido una respuesta válida
+                    
+
+                        ()==================================================================================================================================()
+                        ()                                                                                                                                  ()
+                        ()                                                                                                                                  ()
+                        ()    * Para ver el índice del módulo de Programación, introduce el número 1                                                        ()  
+                        ()                                                                                                                                  ()
+                        ()    * Para salir al menú principal, introduzca 0 y presione la tecla 'Enter', o simplemente presione la tecla 'Enter'.            ()
+                        ()                                                                                                                                  ()
+                        ()                                                                                                                                  ()
+                        ()==================================================================================================================================()
+
+
+                    ")
+
+                    eleMenu = leer()
+                    limpiar()
+
+                fin
+
+                si eleMenu == 0
+                    romper
+                fin
+
+                escribir ("
+                
+                    Hola "..Nombre..": este es el índice del módulo de Programación; aquí podras elegir el tema que quieras estudiar.
+                    Los temas no van en secuencia, por lo que puedes elegir cualquiera de los temas que se muestran sin que hayas tenido que
+                    estudiar alguno de los temas anteriores, así que sientete con libertad de elegir cualquiera de los temas que te gusten
+
+                    ¿Con cuál tema te gustaría iniciar?    
+                
+                    Índice de Programación
+
+                    1. Introducción a la Programación                             8. Bases de datos
+                    2. Historia de la Programación                                9. desarrollo Web 
+                    3. Fundamentos de la Programación                             10. seguridad en Programación
+                    4. Lenguajes de Programación                                  11. Lenguaje de Programación Latino
+                    5. Paradigmas de Programación                                 12. Lenguaje de Programación C
+                    6. desarrollo de Software                                     13. Tópicos avanzados en Programación
+                    7. Estructuras de datos y Algoritmos                          14. Recursos y Herramientas de Programación
+                                                                                  15. Proyectos y ejercicios prácticos  
+                
+                
+                
+                    ")
+                
+
+                eleMenu = leer()
+                limpiar()
+
+
+                elegir (eleMenu)
+
+                    caso 1:
+                        escribir ("
+            
+                                1. Introducción a la Programación
+
+                                    'La programación no es solo escribir código, es el arte de resolver 
+                                    problemas y convertir ideas en realidad a través de la lógica y la creatividad'
+
+                                    Por favor, eliga un tema para comenzar:
+
+
+                                 
+                                    1. ¿Qué es la Programación?
+                                    2. Importancia de la Programación en la Era Digital
+                                    3. Áreas de Aplicación de la Programación
+                                
+                            
+                        ")
+
+                        eleP = leer()
+                        limpiar()
+
+
+                        elegir (eleP)
+
+                            caso 1:
+
+                                escribir ("
+                                
+                                ¿Qué es la Programación?
+
+                                ### Introducción a la Programación
+
+                                #### ¿Qué es la Programación?
+
+                                **Programación** es el arte de darle instrucciones a una computadora para que realice tareas específicas. Imagina que tienes 
+                                un asistente personal que sigue tus órdenes al pie de la letra. La programación es como escribir un conjunto de instrucciones 
+                                detalladas que este asistente sigue para completar una tarea.
+
+                                **Analogía simple:**
+
+                                Piense en la programación como en la cocina. Si quieres preparar un platillo, necesitas una receta. La receta te dice los 
+                                ingredientes, las cantidades y los pasos a seguir para preparar la comida. De manera similar, un programa de computadora 
+                                es como una receta para la máquina: contiene 'ingredientes' (datos), 'instrucciones' (código) y 'procedimientos' 
+                                (algoritmos) que guían a la computadora en cómo procesar esos datos y producir un resultado.
+
+                                **Para principiantes:**
+
+                                1. **¿Qué es un programa?** 
+                                
+                                Un programa es un conjunto de instrucciones que una computadora sigue para realizar una tarea. Estas instrucciones están 
+                                escritas en un lenguaje de programación, que es una forma de comunicación entre humanos y máquinas.
+                                
+                                2. **¿Cómo funciona?** 
+                                
+                                Cuando escribes un programa, estás creando una serie de comandos que la computadora ejecutará. Por ejemplo, un programa 
+                                simple podría decirle a la computadora que muestre un mensaje en la pantalla. A medida que los programas se vuelven 
+                                más complejos, incluyen instrucciones para hacer cosas como calcular números, mostrar imágenes o interactuar con otros 
+                                programas.
+
+                                **Para expertos:**
+
+                                La programación implica una combinación de lógica, estructura y creatividad. Los programas están escritos en lenguajes 
+                                de programación que permiten expresar algoritmos de manera que las máquinas puedan entender y ejecutar. Estos lenguajes 
+                                tienen una sintaxis y semántica propias que definen cómo se deben estructurar y entender las instrucciones.
+
+                                1. **Lógica y Algoritmos** 
+                                
+                                En programación, se utilizan algoritmos para resolver problemas de manera sistemática. Un algoritmo 
+                                es un conjunto finito de pasos que transforman una entrada en una salida. Los expertos en programación 
+                                diseñan algoritmos eficientes para optimizar el rendimiento y la eficacia del software.
+
+                                2. **Lenguajes de Programación** 
+                                
+                                Cada lenguaje de programación tiene características y paradigmas específicos que afectan cómo se escribe 
+                                y se organiza el código. Desde lenguajes imperativos y funcionales hasta orientados a objetos, la elección 
+                                del lenguaje puede influir en la estructura y el rendimiento del programa.
+
+                                3. **Abstracción y Diseño** 
+                                
+                                Los programadores expertos utilizan principios de diseño y abstracción para construir sistemas complejos 
+                                a partir de componentes más simples. Este enfoque modular permite manejar la complejidad al dividir el 
+                                problema en partes más manejables y reutilizables.
+
+                                **Conclusión:**
+
+                                La programación no solo es una habilidad técnica, sino también un proceso creativo y analítico. Permite transformar 
+                                ideas abstractas en aplicaciones concretas y funcionales. Al igual que un chef necesita comprender los ingredientes 
+                                y técnicas de cocina para crear un plato perfecto, un programador necesita entender los conceptos y herramientas del 
+                                lenguaje para construir programas eficientes y efectivos.
+                                                                
+                                
+                                
+                                
+                                
+                                
+                                ")
+                                sis.dormir(5)
+
+
+                            caso 2:
+                                escribir ("Importancia de la Programación en la Era Digital")
+                            caso 3:
+                                escribir ("Áreas de Aplicación de la Programación")
+                            defecto:
+                                escribir ("No haz elegido una respuesta válida, vuelve a intentarlo")
+                        fin
+
+                        
+
+
+                        escribir ("
+                                                                                                                                   
+                        ()========================================================================================================()
+                        ()    * Para volver al menú de Programación, Introduce cualquier número o letra, y presiona 'Enter'.      ()
+                        ()                                                                                                        ()
+                        ()    * Presiona 0 y presiona la tecla 'Enter' para ver màs opciones disponibles.                         ()
+                        ()                                                                                                        ()
+                        ()========================================================================================================()
+
+
+
+                        ")
+                        eleMenu = leer()
+                        limpiar()
+
+
+                    caso 2:
+                        escribir ("
+                
+                            2. Historia de la Programación
+    
+                            °¬ Primeros Lenguajes de Programación
+                            °¬ Evolución de la Programación a lo Largo de las Décadas
+                            °¬ Influencias Modernas en la Programación
+                        
+                        ")
+                    caso 3:
+                        escribir ("
+                
+                            3. Fundamentos de la Programación
+    
+                            °¬ Conceptos Básicos: Variables, Estructuras de Control, Funciones
+                            °¬ Tipos de Datos y Operaciones
+                            °¬ Introducción a la Lógica y Algoritmos
+                            °¬ Programación Orientada a Objetos (POO)
+                            °¬ Manejo de Errores y Depuración
+                        
+                        
+                        
+                        
+                        ")
+                    caso 4:
+                            escribir ("
+                            
+                                4. Lenguajes de Programación
+        
+                                °¬ Lenguajes Imperativos: C, Pascal
+                                °¬ Lenguajes Orientados a Objetos: Java, C++
+                                °¬ Lenguajes Funcionales: Haskell, Lisp
+                                °¬ Lenguajes de Scripting: Python, JavaScript
+                                °¬ Lenguajes de Programación Modernos: Rust, Go, Swift
+                                °¬ Comparación entre Lenguajes de Programación
+        
+                            
+                            ")
+                    caso 5:
+                        escribir ("
+                
+                            5. Paradigmas de Programación
+    
+                            °¬ Programación Imperativa
+                            °¬ Programación Funcional
+                            °¬ Programación Orientada a Objetos
+                            °¬ Programación Lógica
+                            °¬ Metodologías de Programación: Ágil, TDD, DevOps
+                        
+                        
+                        ")
+                    caso 6:
+
+                        escribir ("
+                        
+                                                        6. Desarrollo de Software
+            
+                                    °¬ Ciclo de Vida del Desarrollo de Software
+                                    °¬ Ingeniería de Requisitos
+                                    °¬ Diseño de Software
+                                    °¬ Implementación y Mantenimiento
+                                    °¬ Control de Versiones (Git, SVN)
+                        
+                        ")
+                    caso 7:
+                        escribir ("
+                        
+                                                        7. Estructuras de Datos y Algoritmos
+            
+                                    °¬ Estructuras de Datos Básicas: Listas, Pilas, Colas
+                                    °¬ Estructuras de Datos Avanzadas: Árboles, Grafos, Tablas Hash
+                                    °¬ Algoritmos de Búsqueda y Ordenación
+                                    °¬ Complejidad Algorítmica y Análisis de Eficiencia
+                        
+                        
+                        ")
+                    caso 8:
+                        escribir ("
+                        
+
+                        8. Bases de Datos
+            
+                        °¬ Conceptos Básicos de Bases de Datos
+                        °¬ SQL y Bases de Datos Relacionales
+                        °¬ SQL y Bases de Datos No Relacionales
+                        °¬ Diseño y Normalización de Bases de Datos
+                        
+                        ")
+                    caso 9:
+                        escribir ("
+                            
+                        
+                                9. Desarrollo Web
+            
+                                    °¬ Fundamentos del Desarrollo Web
+                                    °¬ Frontend: HTML, CSS, JavaScript
+                                    °¬ Backend: Node.js, Python, PHP
+                                    °¬ Frameworks Web: React, Angular, Django
+                                    °¬ APIs y Servicios Web
+                        
+                        ")
+                    caso 10:
+                        escribir ("
+                        
+                        10. Seguridad en Programación
+            
+                                    °¬ Principios de Seguridad en el Desarrollo de Software
+                                    °¬ Criptografía y Cifrado
+                                    °¬ Gestión de Vulnerabilidades y Parcheo
+                                    °¬ Auditorías de Código y Pentesting
+            
+                        
+                        ")
+                    caso 11:
+                        escribir ("
+                        
+
+                        11. Lenguaje de Programación Latino
+            
+                        °¬ Introducción al Lenguaje de Programación Latino
+                        °¬ Sintaxis y Características
+                        °¬ Ejemplos y Casos de Uso
+                        °¬ Comparación con Otros Lenguajes
+                        
+                        ")
+                    caso 12:
+                        escribir ("
+                        
+
+                        12. Lenguaje de Programación C
+            
+                        °¬ Introducción al Lenguaje de Programación C
+                        °¬ Sintaxis y Características
+                        °¬ Ejemplos y Casos de Uso
+                        °¬ Comparación con Otros Lenguajes
+                        
+                        ")
+                    caso 13:
+                        escribir ("
+                        
+
+                         
+                                13. Tópicos Avanzados en Programación
+            
+                                    °¬ Programación Concurrente y Multihilo
+                                    °¬ Inteligencia Artificial y Machine Learning
+                                    °¬ Computación Cuántica
+                                    °¬ Programación en la Nube y DevOps
+                                    °¬ Desarrollo de Videojuegos
+                        
+                        ")
+                    caso 14:
+                        escribir ("
+                            
+
+                            
+                                14. Recursos y Herramientas de Programación
+            
+                                    °¬ Entornos de Desarrollo Integrado (IDE)
+                                    °¬ Herramientas de Control de Versiones
+                                    °¬ Plataformas de Desarrollo Colaborativo
+                                    °¬ Bibliotecas y Frameworks Populares
+
+                        
+                        ")
+                    caso 15:
+                        escribir ("
+                                
+
+                                
+                                15. Proyectos y Ejercicios Prácticos
+            
+                                    °¬ Proyectos de Programación para Principiantes
+                                    °¬ Retos de Programación Intermedios
+                                    °¬ Ejercicios de Algoritmos y Estructuras de Datos
+                                    °¬ Participación en Hackathons y Competencias de Programación
+                        
+                        ")
+                    defecto:
+                        escribir ("
+                                                                                                                                                                                                                                                 
+                                                                                                                                     
+                              Por favor "..Nombre..", elige la opción que quieras hacer:                                                                                       
+                                                                                                                               
+                             ()========================================================================================================()                               
+                             ()                                                                                                        ()                       
+                             () *Introduce cualquier número o letra, y presiona enter para volver al menú de Programación.             ()     
+                             ()                                                                                                        ()   
+                             () *Presiona 0 y presiona la tecla 'Enter' para ver màs opciones disponibles.                             ()          
+                             ()                                                                                                        ()                        
+                             ()========================================================================================================()
+                                                                                                                                   
+                                                                                                                                   
+                                                                                                                                                               
+                        ")
+
+                        eleMate = leer()
+                        limpiar()
+
+                fin
+
+
+
+
+            fin
+
+
+
+        caso 19:
+            escribir ("Haz elegido Administración")
+            escribir ("¿qué rama de la Administración te gustaría estudiar?")
+        caso 20:
+            escribir ("Haz elegido Inglés")
+            escribir ("¿qué rama del Inglés te gustaría estudiar?")
+        caso 21:
+            escribir ("Haz elegido Historia")
+            escribir ("¿qué rama de la Historia te gustaría estudiar?")
+        caso 22:
+            escribir ("Haz elegido Lingüística")
+            escribir ("¿qué rama de la Lingüística te gustaría estudiar?")
+        defecto:
+            escribir ("
+                
+                ()===================================()
+                ||                                   ||                      
+                ||                                   ||                      
+                ||  No haz elegido ninguna materia   ||                                                    
+                ||                                   ||                      
+                ||                                   ||                      
+                ()===================================()                                                                   
+
+
+            ")
+    fin
+
+
+    // menú de selección antes de cerrar el programa 
+    escribir ("
+    
+                "..Nombre)
+
+    escribir ("
+     
+        ()==================================================================================================================()
+        ||                                                                                                                  ||
+        ||     * Para volver a ver el menu, introduce cualquier número o letra, y despúes presiona la tecla 'Enter'.        ||
+        ||                                                                                                                  ||
+        ||     * Para cerrar el programa introduce 0 y presiona la tecla 'Enter', o simplemente presiona la tecla 'Enter'.  ||
+        ||                                                                                                                  ||
+        ()==================================================================================================================()
+
+    ")
+
+    x = leer()
+    limpiar()
+
+
+fin
+
+// fin del programa
+si (x == 0) || (beta == 0) || (eleMenu == 0)
+
+    escribir ("
+
+        ()=================================================================================================================================()
+        ()                                                                                                                                 ()
+        ()                                                                                                                                 ()
+        ()    Gracias "..Nombre.." por utilizar este programa: !vuelve pronto¡: La Academia Ubuntu siempre estará  aquí para ayudarte :)   ()
+        ()                                                                                                                                 ()
+        ()                                                                                                                                 ()
+        ()=================================================================================================================================()
+
+    ")
+
+    sis.dormir(5)
+    limpiar()
+    
+fin
