@@ -10,11 +10,12 @@ cualquier ideología-filosofía que fomente la educación gratuita y de la mejor
 base a la colaboración y el apoyo de la comunidad, de la Inteligencia Colectiva de voluntarios que gusten sumarse a este proyecto,
 el crowdsourcing, La inteligencia artificial, y otras formas de apoyo son bienvenidas para este proyecto
 
-# Acerca de la versión 1.0.0-alfa2 de La Academia Ubuntu
+# Acerca de la versión 1.0.0-alfa3 de La Academia Ubuntu
 
-°¬ Se agregó arte ASCII
-°¬ Se agregaron más módulos de estudio
-°¬ Se mejoraorn algunas características
+- Se agregó arte ASCII
+- Se agregaron más módulos de estudio
+- Se mejoraorn algunas características
+- se incorporaron temas de estudio en el módulo de programación
 
 
 # Instrucciones de Instalación
